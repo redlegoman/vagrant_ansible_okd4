@@ -93,10 +93,11 @@ need to run this again.
 
 Download the installation file on a local computer.
 
-- https://github.com/openshift/okd/releases
-
 
     wget -c -LP tmp/ https://github.com/okd-project/okd/releases/download/${OKD_RELEASE}/openshift-install-linux-${OKD_RELEASE}.tar.gz
+
+
+- https://github.com/openshift/okd/releases
 
 Extract the installation program and put it somewhere on your PATH.
 
@@ -106,6 +107,7 @@ Extract the installation program and put it somewhere on your PATH.
 
 Download and extract the command line tool `oc` from the same locattion as the
 installer and pit it in the same place as you put the installer.
+
 
     wget -c -LP tmp/ https://github.com/okd-project/okd/releases/download/${OKD_RELEASE}/openshift-client-linux-${OKD_RELEASE}.tar.gz
     tar xvf tmp/openshift-client-linux-${OKD_RELEASE}.tar.gz --directory tmp/
