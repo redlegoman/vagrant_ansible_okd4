@@ -65,7 +65,7 @@ Remember to restart NetworkManager to pick up the changes.
 
 Step one is to clone the code which is available on Github.
 
-    git clone https://github.com/timhughes/vagrant_ansible_okd4
+    git clone https://github.com/redlegoman/vagrant_ansible_okd4
     cd vagrant_ansible_okd4
 
 The working directory for for all the commands is assumed to be the root
